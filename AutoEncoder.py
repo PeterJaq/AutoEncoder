@@ -108,7 +108,7 @@ for epoch in range(training_epochs):
     if epoch % display_step == 0:
         print("Epoch:", '%04d' % (epoch + 1), "cost = ",
               "{:.9f}".format(avg_cost))
-        
+
 print("Total cost: " + str(autoencoder.calc_total_cost(X_test)))
 
 
